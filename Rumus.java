@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Rumus
 {
 public static void main(String[]args)
@@ -12,6 +13,8 @@ public static void main(String[]args)
   
   System.out.println("PLEASE ENTER THE VALUE OF C");
   int c=input.nextInt();
+
+  System.out.println("YOUR QUADRATIC EQUATION IS : "+ a +"xx+" +"("+b+")"+"x+" + "("+c+ ")"+ "=0");
   
   double d=(b*b)-(4*a*c);
   double e=(Math.sqrt(d));
@@ -19,6 +22,14 @@ public static void main(String[]args)
   double rumus=f/(2*a);
   double g=-(b)-e;
   double h=g/(2*a);
-  System.out.println("BY USING FORMULA, YOUR ANSWER IS :"+ rumus+" AND "+ h);
+
+  if (Double.isNaN(rumus) || Double.isNaN(h)) 
+  {
+    System.out.println("THE EQUATION DOES NOT HAVE ROOTS");
+  }
+  else
+  {
+    System.out.println("BY USING FORMULA, YOUR ANSWER IS :"+ rumus+" AND "+ h);
+  }
     }
 }
