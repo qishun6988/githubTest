@@ -14,7 +14,7 @@ public static void main(String[]args)
   System.out.println("PLEASE ENTER THE VALUE OF C");
   int c=input.nextInt();
 
-  System.out.println("YOUR QUADRATIC EQUATION IS : "+ a +"xx+" +"("+b+")"+"x+" + "("+c+ ")"+ "=0");
+  System.out.println("YOUR QUADRATIC EQUATION IS : "+a+"xx+"+b+"x+"+c+"=0");
   
   double d=(b*b)-(4*a*c);
   double e=(Math.sqrt(d));
