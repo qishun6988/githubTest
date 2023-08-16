@@ -97,5 +97,6 @@ public class Rumus
         System.out.println("THE ROOTS ARE " + rumus + " AND " + h +".");
       }
     }
+    input.close();
   }
 }
