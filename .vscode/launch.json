@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Grade_GUI",
+            "request": "launch",
+            "mainClass": "Grade_GUI",
+            "projectName": "githubTest_fded630d"
+        },
+        {
+            "type": "java",
+            "name": "Grade",
+            "request": "launch",
+            "mainClass": "Grade",
+            "projectName": "githubTest_fded630d"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
