@@ -16,29 +16,26 @@ public class Grade_GUI
             break;
          case 'B' :
          case 'b' :
+            JOptionPane.showMessageDialog(null,"GOOD\nYOUR GRADE IS B");
+            break;
          case 'C' :
          case 'c' :
-            if(grade=='B'||grade=='b')
-            JOptionPane.showMessageDialog(null,"GOOD\nYOUR GRADE IS B");
-            else
             JOptionPane.showMessageDialog(null,"GOOD\nYOUR GRADE IS C");
             break;
          case 'D' :
          case 'd' :
+            JOptionPane.showMessageDialog(null,"PASS\nYOUR GRADE IS D");
+            break;
          case 'E' :
          case 'e' :
-            if(grade=='D'||grade=='d')
-            JOptionPane.showMessageDialog(null,"PASS\nYOUR GRADE IS D");
-            else
             JOptionPane.showMessageDialog(null,"PASS\nYOUR GRADE IS E");
             break;
          case 'F' :
          case 'f' :
+            JOptionPane.showMessageDialog(null,"YOU NEED TO STUDY HARDER\nYOUR GRADE IS F");
+            break;
          case 'G' :
          case 'g' :
-            if(grade=='F'||grade=='f')
-            JOptionPane.showMessageDialog(null,"YOU NEED TO STUDY HARDER\nYOUR GRADE IS F");
-            else
             JOptionPane.showMessageDialog(null,"YOU NEED TO STUDY HARDER\nYOUR GRADE IS G");
             break;
          default :

@@ -16,29 +16,26 @@ public class Grade {
             break;
          case 'B' :
          case 'b' :
+            System.out.println("GOOD\nYOUR GRADE IS B");
+            break;
          case 'C' :
          case 'c' :
-            if(grade=='B'||grade=='b')
-            System.out.println("GOOD\nYOUR GRADE IS B");
-            else
             System.out.println("GOOD\nYOUR GRADE IS C");
             break;
          case 'D' :
          case 'd' :
+            System.out.println("PASS\nYOUR GRADE IS D");
+            break;
          case 'E' :
          case 'e' :
-            if(grade=='D'||grade=='d')
-            System.out.println("PASS\nYOUR GRADE IS D");
-            else
             System.out.println("PASS\nYOUR GRADE IS E");
             break;
          case 'F' :
          case 'f' :
+            System.out.println("YOU NEED TO STUDY HARDER\nYOUR GRADE IS F");
+            break;
          case 'G' :
          case 'g' :
-            if(grade=='F'||grade=='f')
-            System.out.println("YOU NEED TO STUDY HARDER\nYOUR GRADE IS F");
-            else
             System.out.println("YOU NEED TO STUDY HARDER\nYOUR GRADE IS G");
             break;
          default :
