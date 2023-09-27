@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "While_Loop_GUI",
+            "request": "launch",
+            "mainClass": "While_Loop_GUI",
+            "projectName": "githubTest_fded630d"
+        },
+        {
+            "type": "java",
+            "name": "QuadraticEquationGenerator",
+            "request": "launch",
+            "mainClass": "QuadraticEquationGenerator",
+            "projectName": "githubTest_fded630d"
+        },
+        {
+            "type": "java",
+            "name": "JavaApplication9",
+            "request": "launch",
+            "mainClass": "JavaApplication9",
+            "projectName": "githubTest_fded630d"
+        },
+        {
+            "type": "java",
+            "name": "While_Loop",
+            "request": "launch",
+            "mainClass": "While_Loop",
+            "projectName": "githubTest_fded630d"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "githubTest_fded630d"
+        },
+        {
+            "type": "java",
             "name": "Grade_GUI",
             "request": "launch",
             "mainClass": "Grade_GUI",
